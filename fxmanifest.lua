@@ -11,6 +11,9 @@ client_scripts {
 	"functions.lua",
 	"client.lua"
 }
+server_scripts {
+	"server.lua",
+}
 
 exports {
 	"GetFuel", -- GetFuel(vehicle)
