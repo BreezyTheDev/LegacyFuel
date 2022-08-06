@@ -18,7 +18,7 @@ if Config.NDFramework then
 		local amount = math.floor(price)
 
 		if price > 0 then
-			TriggerServerEvent("ND:deposit", amount)
+			TriggerServerEvent("ND:withdraw", amount)
 		end
 	end)
 end
